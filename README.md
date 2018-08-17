@@ -46,6 +46,10 @@ Ubuntu 14.04 or Ubuntu 16.04. Not yet tested on other systems.
 
 **Requirements**
 
+```
+sudo apt install -y libev-dev libjansson-dev libmpdec-dev libmysqlclient-dev libcurl4-gnutls-dev libldap2-dev libgss-dev librtmp-dev
+```
+
 See [requirements](https://github.com/viabtc/viabtc_exchange_server/wiki/requirements). Install the mentioned system or library.
 
 You MUST use the depends/hiredis to install the hiredis library. Or it may not be compatible.
