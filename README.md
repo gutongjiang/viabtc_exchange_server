@@ -46,9 +46,23 @@ Ubuntu 14.04 or Ubuntu 16.04. Not yet tested on other systems.
 
 **Requirements**
 
+
 ```
 sudo apt install -y libev-dev libjansson-dev libmpdec-dev libmysqlclient-dev libcurl4-gnutls-dev libldap2-dev libgss-dev librtmp-dev
 ```
+
+
+if libkafka has the error
+
+```
+/bin/ld:librdkafka.lds:1: syntax error in VERSION script
+```
+modify Makefile.config
+
+```
+#WITH_LDS = y
+```
+
 
 See [requirements](https://github.com/viabtc/viabtc_exchange_server/wiki/requirements). Install the mentioned system or library.
 
