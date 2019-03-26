@@ -66,6 +66,9 @@ modify Makefile.config
 
 See [requirements](https://github.com/viabtc/viabtc_exchange_server/wiki/requirements). Install the mentioned system or library.
 
+[librdkafka](https://github.com/edenhill/librdkafka)
+[libev](https://github.com/paizzj/libev)
+
 You MUST use the depends/hiredis to install the hiredis library. Or it may not be compatible.
 
 **Compilation**
