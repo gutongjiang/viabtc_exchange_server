@@ -67,6 +67,7 @@ modify Makefile.config
 See [requirements](https://github.com/viabtc/viabtc_exchange_server/wiki/requirements). Install the mentioned system or library.
 
 [librdkafka](https://github.com/edenhill/librdkafka)
+
 [libev](https://github.com/paizzj/libev)
 
 You MUST use the depends/hiredis to install the hiredis library. Or it may not be compatible.
@@ -114,9 +115,5 @@ The internal authorization endpoint is defined by the `auth_url` setting in the 
 
 Example response: `{"code": 0, "message": null, "data": {"user_id": 1}}`
 
-## Donation
 
-* BTC: 14x3GrEoMLituT6vF2wcEbqMAxCvt2724s
-* BCC: 1364ZurPv8uTgnFr1uqowJDFF15aNFemkf
-* ETH: 0xA2913166AE0689C07fCB5C423559239bB2814b6D
 
